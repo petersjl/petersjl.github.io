@@ -1,0 +1,25 @@
+:root{
+    --background: #000000;
+    --surface:#121212;
+    --primary:#000000;
+    --secondary:#000000;
+    --tertiary:#000000;
+    --on-background:#FFFFFF;
+    --on-surface:#FFFFFF;
+    --on-primary:#000000;
+    --on-secondary:#000000;
+    --links:#000000;
+}
+
+body {
+    background: var(--background);
+}
+
+.navbar {
+    background-color: var(--surface);
+    color: var(--on-surface);
+}
+
+.page-container {
+    margin-top: 75px;
+}
